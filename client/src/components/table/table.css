@@ -1,0 +1,52 @@
+a {
+    color: rgb(170, 170, 255);
+}
+table a {
+    color: blue;
+}
+table * {
+    padding: 0px;
+}
+table {
+    padding: 20px;
+    color: black;
+    border-radius: 10px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 20px;
+    border-collapse: collapse;
+}
+th {
+    width: 150px;
+    padding: 5px;
+    border: 1px solid black;
+}
+td {
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+td:first-child {
+    padding-left: 20px;
+    text-align: left;
+    width: 100px;
+}
+thead tr {
+    background-color: rgb(212, 212, 212);
+}
+tr:nth-child(even) {
+    background-color: rgb(228, 228, 228);
+}
+.edit {
+    padding: 3px 10px 3px 3px;
+    border-right: 1px solid black;
+}
+.del {
+    padding-left: 10px;
+}
+.del:hover {
+    cursor: pointer;
+}
+.edit, .del {
+    text-decoration: underline;
+    color: blue;
+}

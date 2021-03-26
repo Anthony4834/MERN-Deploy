@@ -1,0 +1,42 @@
+.title {
+    display: inline-block;
+    width: 100px;
+}
+section * {
+    display: inline-block;
+}
+section h3 {
+    margin-right: 100px;
+}
+p {
+    padding: 10px 10px 10px 0px;
+}
+button, p{
+    margin-left: 45px;
+}
+ul {
+    margin-top: 10px;
+    margin-left: -10px;
+    list-style-type: none;
+}
+#skills, ul, #likes {
+    
+    display: inline-block;
+}
+#skills {
+    vertical-align: top;
+}
+.grn { 
+    background-color: rgb(196, 255, 196);
+    border: 1px solid green;
+}
+.grn:hover {
+    background-color: rgb(181, 233, 181);
+}
+#like:disabled {
+    background-color: rgb(148, 201, 148);
+    border: none;
+}
+#like:disabled:hover {
+    cursor: default;
+}

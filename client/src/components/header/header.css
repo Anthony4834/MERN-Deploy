@@ -1,0 +1,14 @@
+header * {
+    display: inline-block;
+}
+header {
+    padding: 20px;
+}
+header h1 {
+    margin-left: 100px;
+    font-weight: 400;
+}
+header a {
+    margin: 10px 100px 0px 0px; 
+    float: right;
+}
